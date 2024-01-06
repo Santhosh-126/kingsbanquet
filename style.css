@@ -1,0 +1,169 @@
+#showcase {
+background-image: url(bg1.jpg);
+background-position: center;
+background-size: cover;
+height: 700px;
+width:100%;
+color: #f0f8ff;
+}
+
+#showme {
+  background-image: url(ccc.jpg);
+  background-position: center ;
+  background-size: cover;
+  height: 700px;
+  width:100%;
+  color: #f0f8ff;
+  
+  }
+
+
+body {
+  background-color: rgb(0, 0, 0)
+} 
+
+  
+  
+h1,h2 {
+  color: #c0c0c0;
+  padding-left: 100px;
+  font-size: 60px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+} 
+
+h3 {
+  color: #c0c0c0;
+  padding-left: 150px;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+} 
+
+
+h4 {
+  color: #c0c0c0;
+  padding-left: 100px;
+  font-size: 26px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+p2,p1,p4 {
+  color: #c0c0c0;
+  padding-left: 100px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+
+
+
+a {
+  padding-right: 10%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #c0c0c0;
+  text-decoration: none;
+  
+}
+a:hover {
+  color: #ff0000;  /* Change the link color to red when hovered */
+}
+
+
+
+description {
+  margin-left: 10px;
+  padding-left: 100px;
+  
+
+
+}
+
+
+
+gallery {
+  text-align: center;
+  color:  rgb(255, 0, 0);
+  background-color: black;
+}
+
+cop {
+  margin-bottom: auto;
+  position: fixed;
+}
+
+cakes {
+  inline-size: auto;
+}
+
+button {
+  font-size: 17px;
+  padding: 0.25em 1em;
+  white-space: nowrap;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.122);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(255, 0, 0) 100%);
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+ }
+ 
+ button:hover {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+ }
+ 
+ button:active {
+  transform: translate(0em, 0.2em);
+ }
+
+
+
+
+
+aboutus {
+  background-image: url(colorful.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  width:100%;
+  color: #f0f8ff;
+}
+
+h5 {
+  margin-left: 150px;
+}
+
+
+.contact-email, .contact-phone, .contact-linkedin {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 20px 25px;
+  border-radius: 10px;
+  margin-left: 150px;
+ 
+  transition: background-color 0.3s, color 0.3s;
+  width: 350px; /* Adjust the width as needed */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.contact-email:hover, .contact-phone:hover, .contact-linkedin:hover {
+  background-color: #1c89dc;
+  color: #fff;
+}
+
+.contact-email img, .contact-phone img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.contact-linkedin i {
+  font-size: 24px;
+  color: #0077b5;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
